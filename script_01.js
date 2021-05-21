@@ -14,6 +14,12 @@ function addieren(a,b) {
     return a + b;
 }
 
+// Modul: Subtraktion a - b | Test:
+// ausgabe(subtrahieren(2,5));
+function subtrahieren(a,b) {
+    return a - b;
+}
+
 // Modul: Konsolenausgabe | Test:
 // ausgabe("Heinz");
 function ausgabe(outputStr) {
