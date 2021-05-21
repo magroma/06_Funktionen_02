@@ -20,6 +20,18 @@ function subtrahieren(a,b) {
     return a - b;
 }
 
+// Modul: Multiplizieren a * b | Test:
+// ausgabe(multiplizieren(2,5));
+function multiplizieren(a,b) {
+    return a * b;
+}
+
+// Modul: Dividieren a / b | Test:
+// ausgabe(dividieren(2,5));
+function dividieren(a,b) {
+    return a / b; 
+}
+
 // Modul: Konsolenausgabe | Test:
 // ausgabe("Heinz");
 function ausgabe(outputStr) {
