@@ -27,9 +27,14 @@ function multiplizieren(a,b) {
 }
 
 // Modul: Dividieren a / b | Test:
-// ausgabe(dividieren(2,5));
+ausgabe(dividieren(prompt("Erste Zahl?"),prompt("Zweite Zahl?")));
 function dividieren(a,b) {
-    return a / b; 
+    // wenn b = 0 // dann Fehlermeldung
+    if (b==0) {
+        return "Division durch 0 nicht erlaubt!"
+    } else {
+        return a / b;    
+    }
 }
 
 // Modul: Konsolenausgabe | Test:
