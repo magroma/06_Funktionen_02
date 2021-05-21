@@ -9,7 +9,7 @@
 */
 
 // Modul: Addition a + b | Test:
-// ausgabe(addieren(2,5));
+// ausgabe(addieren(parseFloat(prompt("Erste Zahl?")),parseFloat(prompt("Zweite Zahl?"))));
 function addieren(a,b) {
     return a + b;
 }
@@ -27,13 +27,13 @@ function multiplizieren(a,b) {
 }
 
 // Modul: Dividieren a / b | Test:
-ausgabe(dividieren(prompt("Erste Zahl?"),prompt("Zweite Zahl?")));
+// ausgabe(dividieren(parseFloat(prompt("Erste Zahl?")),parseFloat(prompt("Zweite Zahl?"))));
 function dividieren(a,b) {
     // wenn b = 0 // dann Fehlermeldung
-    if (b==0) {
-        return "Division durch 0 nicht erlaubt!"
+    if (b!=0) {
+        return a / b;
     } else {
-        return a / b;    
+        return "Division durch 0 nicht erlaubt!"    
     }
 }
 
